@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "megalaser90",
+  "version": "${version}",
+  "name": "Mega Laser 90",
+  "description": "90 animated destruction modes and five cinematic attacks",
+  "authors": [
+    "Mega Laser 90"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.megapointer.laser.MegaLaser90"
+    ],
+    "client": [
+      "com.megapointer.laser.client.MegaLaser90Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
